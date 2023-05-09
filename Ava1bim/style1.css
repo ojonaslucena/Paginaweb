@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background: rgb(24, 156, 24);
+}
+.pokebola{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 15px;
+    top: 15px;
+    
+}
+.pokemon{
+    margin: 0%;
+    position: absolute;
+    width: 222px;
+    height: 72px;
+    left: 65px;
+    top:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    color: #602079;
+}
+.b{
+    margin: 0;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 270px;
+    top: 1px;
+    left: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.35);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: -2;
+}
+.a{
+   margin: 0;
+   position: absolute;
+   font-style: normal;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 225px;
+   top: 120px;
+   left: 150px;
+   color: white;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   z-index: -1;
+}
+img{
+    position: absolute;
+    width: 250px;
+    height: 275px;
+    top: 208px;
+    left: 585px;
+}
+.let{
+    margin: 0%;
+    position: absolute;
+    left: 15px;
+    top: 475px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 45px;
+    color: #602079;
+}
+p{ 
+    margin: 0%;
+    position: absolute;
+    left: 17px;
+    top: 535px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #602079;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+button{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    border: 1px solid rgb(55, 55, 55);
+    color: white;
+    position: absolute;
+    top: 505px;
+    left: 1075px;
+    width: 187px;
+    height:87px;
+    background: #602079;
+    font-size: 25px;
+    font-style: bold;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+button:hover{
+    background-image: linear-gradient(rgb(26, 168, 26),rgb(103, 10, 103));
+    cursor:grab;
+    border: 0;
+}
